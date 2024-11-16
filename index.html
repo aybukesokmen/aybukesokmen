@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aybuke Sokmen's GitHub Profile</title>
+      <title>Aybuke Sokmen's GitHub Repositories</title>
     <style>
         /* Genel Stil */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000; /* Siyah arka plan */
-            color: #fff; /* Beyaz yazılar */
+            background-color: #000; /* Arka plan siyah */
+            color: #fff; /* Yazılar beyaz */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -33,58 +33,33 @@
             margin-bottom: 30px;
         }
 
-        /* Sekme Stili */
-        .tabs {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
+        .section-title {
+            font-size: 1.5rem;
+            color: #00ffcc; /* Neon mavi */
+            margin-bottom: 15px;
+            text-transform: uppercase;
         }
 
-        .tab-button {
-            padding: 10px 20px;
-            margin: 0 10px;
-            background: linear-gradient(90deg, #ff00ff, #00ffcc);
-            color: #000;
-            font-weight: bold;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .tab-button:hover {
-            color: #fff;
-            box-shadow: 0 0 10px #00ffcc, 0 0 20px #ff00ff;
-        }
-
-        .tab-content {
-            display: none;
-        }
-
-        .tab-content.active {
-            display: block;
-        }
-
-        /* Tablo Stili */
-        .repos-table, .research-content {
+        .repos-table {
             width: 100%;
+            border-collapse: collapse;
             margin-top: 20px;
         }
 
-        .repos-table th, .repos-table td, .research-content {
+        .repos-table th, .repos-table td {
             text-align: left;
             padding: 15px;
-            border-bottom: 1px solid #333;
+            border-bottom: 1px solid #333; /* Koyu gri çizgiler */
         }
 
         .repos-table th {
-            background-color: #00ffcc;
-            color: #000;
+            background-color: #00ffcc; /* Neon mavi */
+            color: #000; /* Siyah yazı */
             text-transform: uppercase;
         }
 
         .repos-table tr:hover {
-            background-color: #222;
+            background-color: #222; /* Hover efekti */
         }
 
         .repos-table a {
@@ -94,8 +69,45 @@
         }
 
         .repos-table a:hover {
-            color: #ff00ff;
+            color: #ff00ff; /* Neon pembe hover */
             text-decoration: underline;
+        }
+
+        .stats-grid {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .stats-box {
+            flex: 1;
+            background: #1a1a1a;
+            padding: 15px;
+            border: 2px solid #00ffcc; /* Neon kenar çizgisi */
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stats-box h3 {
+            color: #ff00ff; /* Neon pembe */
+        }
+
+        .neon-button {
+            display: inline-block;
+            background: linear-gradient(90deg, #ff00ff, #00ffcc);
+            color: #000;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .neon-button:hover {
+            background: linear-gradient(90deg, #00ffcc, #ff00ff);
+            color: #fff;
+            box-shadow: 0 0 10px #00ffcc, 0 0 20px #ff00ff;
         }
 
         footer {
@@ -108,69 +120,90 @@
 </head>
 <body>
     <div class="container">
-        <h1>👋 Welcome to <span>Aybuke Sokmen's</span> GitHub Profile ☾☆</h1>
+      <h1>👋 Welcome to <span>Aybuke Sokmen's</span> GitHub Repositories </h1>
+            <ul>
+                      <td>Hi, I'm Aybuke from Turkey!</td>
+                              <td>I work on Embedded Systems and pursue a Master's degree in Power Electronics at Yıldız Technical University.</td>
+            </ul>
 
-        <!-- Sekmeler -->
-        <div class="tabs">
-            <button class="tab-button" onclick="showTab('repositories')">Repositories</button>
-            <button class="tab-button" onclick="showTab('research')">Research</button>
+        <div class="connect">
+            <h2 class="section-title">🤝Connect with Me:</h2>
+            <a href="https://www.linkedin.com/in/aybuke-sokmen/" target="_blank" class="neon-button">LinkedIn</a>
+            <a href="mailto:aybukesokmen@gmail.com" class="neon-button">Email Me</a>
         </div>
 
-        <!-- Sekme İçeriği -->
-        <div id="repositories" class="tab-content active">
-            <h2>My Repositories</h2>
+        <div class="about">
+            <h2 class="section-title">About Me</h2>
+            <ul>
+                <li>🔭 Currently focusing on embedded systems and power electronics projects.</li>
+                <li>📚 Passionate about learning new programming languages, tools, and frameworks.</li>
+                <li>🌱 Exploring advanced C/C++ frameworks and hardware-software integration.</li>
+                <li>🎯 Striving to develop innovative solutions in the embedded systems domain.</li>
+            </ul>
+        </div>
+
+        <div class="repos">
+            <h2 class="section-title">My Repositories</h2>
             <table class="repos-table">
-                <thead>
-                    <tr>
-                        <th>Repository</th>
-                        <th>Description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://github.com/aybukesokmen/C" target="_blank">C Projects</a></td>
-                        <td>Exercises and projects in C programming.</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/aybukesokmen/STM32" target="_blank">STM32 Projects</a></td>
-                        <td>Embedded systems projects with STM32 microcontrollers.</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/aybukesokmen/C-" target="_blank">C++ Projects</a></td>
-                        <td>Various C++ projects and exercises.</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/aybukesokmen/WPF" target="_blank">WPF Projects</a></td>
-                        <td>Projects developed using Windows Presentation Foundation (WPF).</td>
-                    </tr>
+                <tr>
+                    <th>Repository</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://github.com/aybukesokmen/C" target="_blank">C Projects</a></td>
+                    <td>Exercises and projects in C programming.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/aybukesokmen/STM32" target="_blank">STM32 Projects</a></td>
+                    <td>Embedded systems projects with STM32 microcontrollers.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/aybukesokmen/C-" target="_blank">C++ Projects</a></td>
+                    <td>Various C++ projects and exercises.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/aybukesokmen/WPF" target="_blank">WPF Projects</a></td>
+                    <td>Projects developed using Windows Presentation Foundation (WPF).</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/aybukesokmen/PSIM" target="_blank">PSIM Simulations</a></td>
+                    <td>Power electronics simulations created in PSIM.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/aybukesokmen/QT" target="_blank">QT Projects</a></td>
+                    <td>GUI projects and applications developed with QT framework.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/aybukesokmen/RESEARCH" target="_blank">Research</a></td>
+                    <td>Research-based projects and experimental code.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/aybukesokmen/Python" target="_blank">Python Projects</a></td>
+                    <td>Python scripts and projects for data analysis and automation.</td>
+                </tr>
                 </tbody>
             </table>
         </div>
 
-        <div id="research" class="tab-content">
-            <h2>Research</h2>
-            <div class="research-content">
-                <p>Research on Embedded Systems and Power Electronics:</p>
-                <ul>
-                    <li>Optimization techniques for energy-efficient systems.</li>
-                    <li>Control systems for real-time applications.</li>
-                    <li>Integration of hardware and software for embedded platforms.</li>
-                </ul>
+        <div class="stats">
+            <h2 class="section-title">GitHub Stats</h2>
+            <div class="stats-grid">
+                <div class="stats-box">
+                    <h3>Most Used Languages</h3>
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aybukesokmen&layout=compact&theme=radical" alt="Most Used Languages">
+                </div>
+                <div class="stats-box">
+                    <h3>GitHub Stats</h3>
+                    <img src="https://github-readme-stats.vercel.app/api?username=aybukesokmen&show_icons=true&theme=radical" alt="GitHub Stats">
+                </div>
             </div>
         </div>
 
         <footer>
-            <p>Created by Aybuke Sokmen. Thank you for visiting my profile! Have a great day!</p>
+            <p>Thank you for visiting my profile! Have a great day!</p>
         </footer>
     </div>
-
-    <script>
-        function showTab(tabId) {
-            const tabs = document.querySelectorAll('.tab-content');
-            tabs.forEach(tab => tab.classList.remove('active'));
-
-            document.getElementById(tabId).classList.add('active');
-        }
-    </script>
 </body>
 </html>
