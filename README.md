@@ -24,6 +24,16 @@ Here are some of the technologies I use:
 
 ---
 
+## 📂 My Repositories:
+
+Here are some of my GitHub repositories. Click on the buttons below to explore!
+
+[![C Programming Exercises](https://img.shields.io/badge/C%20Programming%20Exercises-blue?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C)
+[![Embedded Systems Projects](https://img.shields.io/badge/Embedded%20Systems-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/embedded-systems)
+[![IoT Projects](https://img.shields.io/badge/IoT%20Projects-green?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/iot-projects)
+
+---
+
 ## 📈 GitHub Stats:
 ![Aybuke's GitHub stats](https://github-readme-stats.vercel.app/api?username=aybukesokmen&show_icons=true&theme=radical)
 
@@ -40,6 +50,7 @@ Here are some of the technologies I use:
 Feel free to reach out and connect!  
 - 💼 [LinkedIn](https://www.linkedin.com/in/aybuke-sokmen/)
 - 📧 Email: aybukesokmen@gmail.com
+
 ---
 
 🎉 **Thank you for visiting my profile! Have a great day!**
