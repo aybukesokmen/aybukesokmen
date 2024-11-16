@@ -18,7 +18,7 @@ Here are some of my GitHub repositories. Click on the buttons below to explore!
 
 | Repository | Description |
 |------------|-------------|
-| [![C Projects](https://img.shields.io/badge/C%50projects-blue?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C) | Exercises and projects in C programming. |
+| [![C Projects](https://img.shields.io/badge/C%20Projects-blue?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C) | Exercises and projects in C programming. |
 | [![STM32 Projects](https://img.shields.io/badge/STM32%20Projects-green?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/STM32) | Embedded systems projects with STM32 microcontrollers. |
 | [![C++ Projects](https://img.shields.io/badge/C%2B%2B%20Projects-purple?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C-) | Various C++ projects and exercises. |
 | [![WPF Projects](https://img.shields.io/badge/WPF%20Projects-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/WPF) | Projects developed using Windows Presentation Foundation (WPF). |
