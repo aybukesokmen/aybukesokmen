@@ -40,11 +40,10 @@ Here are some of my GitHub repositories. Click on the buttons below to explore!
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aybukesokmen&layout=compact&theme=radical" alt="Top Langs" />
     </td>
     <td>
-      <img src="https://activity-graph.herokuapp.com/graph?username=aybukesokmen&theme=radical" alt="Commit Activity" />
+      <img src="https://github-readme-activity-graph.cyclic.app/graph?username=aybukesokmen&theme=radical" />
     </td>
   </tr>
 </table>
-
 
 ## 🏆 Contributions:
 ![GitHub Contributions](https://github-profile-trophy.vercel.app/?username=aybukesokmen&theme=radical)
