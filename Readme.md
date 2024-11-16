@@ -17,14 +17,12 @@ I work on **Embedded Systems** and pursue a **Master's degree in Power Electroni
 
 Here are some of my GitHub repositories. Click on the buttons below to explore!
 
-[![C Programming Exercises](https://img.shields.io/badge/C%20Programming%20Exercises-blue?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C)
-[![STM32 Projects](https://img.shields.io/badge/STM32%20Projects-green?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/STM32)
-[![C++ Projects](https://img.shields.io/badge/C%2B%2B%20Projects-purple?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C-)
-[![Python](https://img.shields.io/badge/Python-gray?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/Python)
-[![WPF Projects](https://img.shields.io/badge/WPF%20Projects-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/WPF)
-[![PSIM Simulations](https://img.shields.io/badge/PSIM%20Simulations-red?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/PSIM)
-[![QT Projects](https://img.shields.io/badge/QT%20Projects-teal?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/QT)
-[![Research](https://img.shields.io/badge/Research-gray?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/RESEARCH)
+## 📂 My Repositories:
+
+| [![C Programming Exercises](https://img.shields.io/badge/C%20Programming%20Exercises-blue?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C) | [![STM32 Projects](https://img.shields.io/badge/STM32%20Projects-green?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/STM32) | [![C++ Projects](https://img.shields.io/badge/C%2B%2B%20Projects-purple?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C-) | [![Python](https://img.shields.io/badge/Python-gray?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/Python) |
+|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| [![WPF Projects](https://img.shields.io/badge/WPF%20Projects-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/WPF) | [![PSIM Simulations](https://img.shields.io/badge/PSIM%20Simulations-red?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/PSIM) | [![QT Projects](https://img.shields.io/badge/QT%20Projects-teal?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/QT) | [![Research](https://img.shields.io/badge/Research-gray?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/RESEARCH) |
+
 
 ## 👀 Profile Views:
 ![Profile Views](https://komarev.com/ghpvc/?username=aybukesokmen&color=blue&style=flat-square)
