@@ -29,8 +29,9 @@ Here are some of the technologies I use:
 Here are some of my GitHub repositories. Click on the buttons below to explore!
 
 [![C Programming Exercises](https://img.shields.io/badge/C%20Programming%20Exercises-blue?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C)
-[![Embedded Systems Projects](https://img.shields.io/badge/Embedded%20Systems-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/embedded-systems)
-
+[![C++ Projects](https://img.shields.io/badge/Embedded%20Systems-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C++)
+[![C# Projects](https://img.shields.io/badge/Embedded%20Systems-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C#)
+[![PYTHON Projects](https://img.shields.io/badge/Embedded%20Systems-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/Python)
 ---
 
 ## 📈 GitHub Stats:
