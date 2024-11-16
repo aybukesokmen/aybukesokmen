@@ -45,9 +45,8 @@ Here are some of my GitHub repositories. Click on the buttons below to explore!
   </tr>
 </table>
 ## 📊 Commit Activity:
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=aybukesokmen&theme=radical)
-## 📈 GitHub Stats:
-![Aybuke's GitHub stats](https://github-readme-stats.vercel.app/api?username=aybukesokmen&show_icons=true&theme=radical)
+![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=aybukesokmen&theme=radical)
+
 
 ## 🌟 Followers and Stars:
 ![Followers](https://img.shields.io/github/followers/aybukesokmen?style=social)  
