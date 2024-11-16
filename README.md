@@ -38,10 +38,8 @@ Here are some of the technologies I use:
 
 ## 🤝 Connect with Me:
 Feel free to reach out and connect!  
-- 💼 [LinkedIn](https://www.linkedin.com/in/aybukesokmen/)
-- 📧 Email: aybuke.sokmen@example.com
-- 🌐 [Portfolio](https://aybukesokmen.github.io) *(if you have one)*
-
+- 💼 [LinkedIn](https://www.linkedin.com/in/aybuke-sokmen/)
+- 📧 Email: aybukesokmen@gmail.com
 ---
 
 🎉 **Thank you for visiting my profile! Have a great day!**
