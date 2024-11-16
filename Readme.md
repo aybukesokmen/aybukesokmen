@@ -39,10 +39,15 @@ Here are some of my GitHub repositories. Click on the buttons below to explore!
     <td>
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aybukesokmen&layout=compact&theme=radical" alt="Top Langs" />
     </td>
+        <td>
+       <img src="https://activity-graph.herokuapp.com/graph?username=aybukesokmen&theme=radical" alt="Commit Activity" />
+    </td>
   </tr>
 </table>
-## 🏆 Contributions:
-![GitHub Contributions](https://github-profile-trophy.vercel.app/?username=aybukesokmen&theme=radical)
+## 📊 Commit Activity:
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=aybukesokmen&theme=radical)
+## 📈 GitHub Stats:
+![Aybuke's GitHub stats](https://github-readme-stats.vercel.app/api?username=aybukesokmen&show_icons=true&theme=radical)
 
 ## 🌟 Followers and Stars:
 ![Followers](https://img.shields.io/github/followers/aybukesokmen?style=social)  
