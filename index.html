@@ -3,133 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Aybuke's GitHub Profile</title>
     <style>
-        /* Genel Tasarım Ayarları */
+        /* Genel Stil */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            background-color: #f3f3f3;
+            min-height: 100vh;
         }
 
         .container {
-            width: 90%;
             max-width: 1200px;
+            width: 90%;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        .profile-views, .connect, .about, .repos, .stats, .research {
+            margin: 20px 0;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: #4CAF50;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .repos-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .repo-box {
+            background: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #555;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .repo-box:hover {
+            background: #4CAF50;
+            color: #fff;
+            border-color: #4CAF50;
+        }
+
+        .stats-grid {
             display: flex;
-            flex-wrap: wrap;
+            justify-content: space-between;
             gap: 20px;
         }
 
-        .card {
+        .stats-box {
             flex: 1;
-            min-width: 220px;
-            max-width: 300px;
-            background: #fff;
+            background: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
             border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
 
-        .card h3 {
-            margin-bottom: 10px;
-            font-size: 1.2rem;
-            color: #333;
-        }
-
-        .progress-circle {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            border: 6px solid #eee;
-            margin: 10px auto;
-            position: relative;
-        }
-
-        .progress-circle .progress {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            clip-path: circle(50% at 50% 50%);
-            background: conic-gradient(#4CAF50 0% 85%, #ddd 85% 100%);
-        }
-
-        .progress-text {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 1.2rem;
+        a {
+            color: #4CAF50;
+            text-decoration: none;
             font-weight: bold;
-            color: #333;
         }
 
-        .dark-mode {
-            background: #1e1e1e;
-            color: #fff;
-        }
-
-        .dark-mode .card {
-            background: #2a2a2a;
-            color: #ddd;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-        }
-
-        /* Sol Panel */
-        .left-panel {
-            flex: 1;
-            max-width: 300px;
-        }
-
-        /* Sağ Panel */
-        .right-panel {
-            flex: 2;
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Sol Panel -->
-        <div class="left-panel">
-            <div class="card">
-                <h3>Engineering Graphics</h3>
-                <div class="progress-circle">
-                    <div class="progress"></div>
-                    <div class="progress-text">86%</div>
-                </div>
-                <p>12/14 Attendance</p>
-            </div>
-            <div class="card">
-                <h3>Mathematical Engineering</h3>
-                <div class="progress-circle">
-                    <div class="progress"></div>
-                    <div class="progress-text">93%</div>
-                </div>
-                <p>27/29 Attendance</p>
+        <h1>Welcome to My GitHub Profile!</h1>
+        <div class="profile-views">
+            <strong>👀 Profile Views:</strong> <span>48</span>
+        </div>
+
+        <div class="connect">
+            <h2 class="section-title">Connect with Me:</h2>
+            <p>Feel free to reach out and connect!</p>
+            <p>💼 <a href="https://www.linkedin.com/in/aybuke-sokmen/" target="_blank">LinkedIn</a></p>
+            <p>📧 Email: <a href="mailto:aybukesokmen@gmail.com">aybukesokmen@gmail.com</a></p>
+        </div>
+
+        <div class="about">
+            <h2 class="section-title">About Me</h2>
+            <ul>
+                <li>🔭 Currently focusing on embedded systems and power electronics projects.</li>
+                <li>📚 Passionate about learning new programming languages, tools, and frameworks.</li>
+                <li>🌱 Exploring advanced C/C++ frameworks and hardware-software integration.</li>
+                <li>🎯 Striving to develop innovative solutions in the embedded systems domain.</li>
+            </ul>
+        </div>
+
+        <div class="repos">
+            <h2 class="section-title">My Repositories</h2>
+            <div class="repos-grid">
+                <div class="repo-box">Repo 1</div>
+                <div class="repo-box">Repo 2</div>
+                <div class="repo-box">Repo 3</div>
+                <div class="repo-box">Repo 4</div>
+                <div class="repo-box">Repo 5</div>
+                <div class="repo-box">Repo 6</div>
+                <div class="repo-box">Repo 7</div>
+                <div class="repo-box">Repo 8</div>
             </div>
         </div>
 
-        <!-- Sağ Panel -->
-        <div class="right-panel">
-            <div class="card">
-                <h3>Announcements</h3>
-                <p><strong>Academic:</strong> Summer training internship.</p>
-                <p><strong>Examination:</strong> Instructions for mid-term exams.</p>
-            </div>
-            <div class="card">
-                <h3>Teachers on Leave</h3>
-                <p><strong>The Professor:</strong> Full day.</p>
-                <p><strong>Lisa Monobal:</strong> Half day.</p>
+        <div class="stats">
+            <h2 class="section-title">GitHub Stats</h2>
+            <div class="stats-grid">
+                <div class="stats-box">
+                    <h3>Most Used Languages</h3>
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aybukesokmen&layout=compact&theme=radical" alt="Most Used Languages">
+                </div>
+                <div class="stats-box">
+                    <h3>GitHub Stats</h3>
+                    <img src="https://github-readme-stats.vercel.app/api?username=aybukesokmen&show_icons=true&theme=radical" alt="GitHub Stats">
+                </div>
             </div>
         </div>
+
+        <div class="research">
+            <h2 class="section-title">Research</h2>
+            <p>Araştırdığım metinler burada yer alsın</p>
+        </div>
+
+        <footer>
+            <p>Thank you for visiting my profile! Have a great day!</p>
+        </footer>
     </div>
 </body>
 </html>
-
