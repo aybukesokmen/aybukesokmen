@@ -27,9 +27,24 @@ Here are some of my GitHub repositories. Click on the buttons below to explore!
 [![Research](https://img.shields.io/badge/Research-gray?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/RESEARCH)
 
 
-
 ## 📈 GitHub Stats:
 ![Aybuke's GitHub stats](https://github-readme-stats.vercel.app/api?username=aybukesokmen&show_icons=true&theme=radical)
+
+## 🖥️ Most Used Languages:
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aybukesokmen&layout=compact&theme=radical)
+
+## 📊 Commit Activity:
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=aybukesokmen&theme=radical)
+
+## 👀 Profile Views:
+![Profile Views](https://komarev.com/ghpvc/?username=aybukesokmen&color=blue&style=flat-square)
+
+## 🏆 Contributions:
+![GitHub Contributions](https://github-profile-trophy.vercel.app/?username=aybukesokmen&theme=radical)
+
+## 🌟 Followers and Stars:
+![Followers](https://img.shields.io/github/followers/aybukesokmen?style=social)  
+![Stars](https://img.shields.io/github/stars/aybukesokmen?style=social)
 
 ---
 
