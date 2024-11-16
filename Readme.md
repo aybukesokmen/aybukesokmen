@@ -14,20 +14,27 @@ I work on **Embedded Systems** and pursue a **Master's degree in Power Electroni
 ---
 
 ## 📂 My Repositories:
-
 Here are some of my GitHub repositories. Click on the buttons below to explore!
 
-## 📂 My Repositories:
+| Repository | Description |
+|------------|-------------|
+| [![C Programming Exercises](https://img.shields.io/badge/C%20Programming%20Exercises-blue?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C) | Exercises and projects in C programming. |
+| [![STM32 Projects](https://img.shields.io/badge/STM32%20Projects-green?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/STM32) | Embedded systems projects with STM32 microcontrollers. |
+| [![C++ Projects](https://img.shields.io/badge/C%2B%2B%20Projects-purple?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C-) | Various C++ projects and exercises. |
+| [![WPF Projects](https://img.shields.io/badge/WPF%20Projects-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/WPF) | Projects developed using Windows Presentation Foundation (WPF). |
+| [![PSIM Simulations](https://img.shields.io/badge/PSIM%20Simulations-red?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/PSIM) | Power electronics simulations created in PSIM. |
+| [![QT Projects](https://img.shields.io/badge/QT%20Projects-teal?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/QT) | GUI projects and applications developed with QT framework. |
+| [![Research](https://img.shields.io/badge/Research-gray?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/RESEARCH) | Research-based projects and experimental code. |
+| [![Python Projects](https://img.shields.io/badge/Python-gray?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/Python) | Python scripts and projects for data analysis and automation. |
 
-| [![WPF Projects](https://img.shields.io/badge/WPF%20Projects-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/WPF) | [![PSIM Simulations](https://img.shields.io/badge/PSIM%20Simulations-red?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/PSIM) | [![QT Projects](https://img.shields.io/badge/QT%20Projects-teal?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/QT) | [![Research](https://img.shields.io/badge/Research-gray?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/RESEARCH) |
-
-
+---
 
 ## 👀 Profile Views:
 ![Profile Views](https://komarev.com/ghpvc/?username=aybukesokmen&color=blue&style=flat-square)
 
-## 📈 GitHub Stats:
+---
 
+## 📈 GitHub Stats:
 <table>
   <tr>
     <td>
@@ -36,14 +43,15 @@ Here are some of my GitHub repositories. Click on the buttons below to explore!
     <td>
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aybukesokmen&layout=compact&theme=radical" alt="Top Langs" />
     </td>
-        <td>
-       <img src="https://activity-graph.herokuapp.com/graph?username=aybukesokmen&theme=radical" alt="Commit Activity" />
-    </td>
   </tr>
 </table>
+
+---
+
 ## 📊 Commit Activity:
 ![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=aybukesokmen&theme=radical)
 
+---
 
 ## 🌟 Followers and Stars:
 ![Followers](https://img.shields.io/github/followers/aybukesokmen?style=social)  
