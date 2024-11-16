@@ -43,28 +43,37 @@
             text-transform: uppercase;
         }
 
-        .repos-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 15px;
+        .repos-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
 
-        .repo-box {
-            background: #f9f9f9;
+        .repos-table th, .repos-table td {
+            text-align: left;
             padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            text-align: center;
-            font-size: 0.9rem;
-            color: #555;
-            cursor: pointer;
-            transition: 0.3s;
+            border-bottom: 1px solid #ddd;
         }
 
-        .repo-box:hover {
-            background: #4CAF50;
-            color: #fff;
-            border-color: #4CAF50;
+        .repos-table th {
+            background-color: #4CAF50;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .repos-table tr:hover {
+            background-color: #e8f5e9;
+        }
+
+        .repos-table a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .repos-table a:hover {
+            text-decoration: underline;
         }
 
         .stats-grid {
@@ -82,14 +91,11 @@
             text-align: center;
         }
 
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        a:hover {
-            text-decoration: underline;
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #666;
         }
     </style>
 </head>
@@ -119,16 +125,48 @@
 
         <div class="repos">
             <h2 class="section-title">My Repositories</h2>
-            <div class="repos-grid">
-                <div class="repo-box">Repo 1</div>
-                <div class="repo-box">Repo 2</div>
-                <div class="repo-box">Repo 3</div>
-                <div class="repo-box">Repo 4</div>
-                <div class="repo-box">Repo 5</div>
-                <div class="repo-box">Repo 6</div>
-                <div class="repo-box">Repo 7</div>
-                <div class="repo-box">Repo 8</div>
-            </div>
+            <table class="repos-table">
+                <thead>
+                    <tr>
+                        <th>Repository</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://github.com/aybukesokmen/C" target="_blank">C Projects</a></td>
+                        <td>Exercises and projects in C programming.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/aybukesokmen/STM32" target="_blank">STM32 Projects</a></td>
+                        <td>Embedded systems projects with STM32 microcontrollers.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/aybukesokmen/C-" target="_blank">C++ Projects</a></td>
+                        <td>Various C++ projects and exercises.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/aybukesokmen/WPF" target="_blank">WPF Projects</a></td>
+                        <td>Projects developed using Windows Presentation Foundation (WPF).</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/aybukesokmen/PSIM" target="_blank">PSIM Simulations</a></td>
+                        <td>Power electronics simulations created in PSIM.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/aybukesokmen/QT" target="_blank">QT Projects</a></td>
+                        <td>GUI projects and applications developed with QT framework.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/aybukesokmen/RESEARCH" target="_blank">Research</a></td>
+                        <td>Research-based projects and experimental code.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/aybukesokmen/Python" target="_blank">Python Projects</a></td>
+                        <td>Python scripts and projects for data analysis and automation.</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
         <div class="stats">
@@ -147,7 +185,7 @@
 
         <div class="research">
             <h2 class="section-title">Research</h2>
-            <p>Araştırdığım metinler burada yer alsın</p>
+            <p>Research-based content will be here!</p>
         </div>
 
         <footer>
