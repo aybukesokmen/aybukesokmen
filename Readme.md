@@ -39,12 +39,11 @@ Here are some of my GitHub repositories. Click on the buttons below to explore!
     <td>
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aybukesokmen&layout=compact&theme=radical" alt="Top Langs" />
     </td>
+    <td>
+      <img src="https://activity-graph.herokuapp.com/graph?username=aybukesokmen&theme=radical" alt="Commit Activity" />
+    </td>
   </tr>
 </table>
-
-
-## 📊 Commit Activity:
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=aybukesokmen&theme=radical)
 
 
 ## 🏆 Contributions:
