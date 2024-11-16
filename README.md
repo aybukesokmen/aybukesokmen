@@ -13,6 +13,20 @@ I work on **Embedded Systems** and pursue a **Master's degree in Power Electroni
 
 ---
 
+## 📂 My Repositories:
+
+Here are some of my GitHub repositories. Click on the buttons below to explore!
+
+[![C Programming Exercises](https://img.shields.io/badge/C%20Programming%20Exercises-blue?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C)
+[![STM32 Projects](https://img.shields.io/badge/STM32%20Projects-green?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/STM32)
+[![C++ Projects](https://img.shields.io/badge/C%2B%2B%20Projects-purple?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C-)
+[![WPF Projects](https://img.shields.io/badge/WPF%20Projects-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/WPF)
+[![PSIM Simulations](https://img.shields.io/badge/PSIM%20Simulations-red?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/PSIM)
+[![QT Projects](https://img.shields.io/badge/QT%20Projects-teal?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/QT)
+[![Research](https://img.shields.io/badge/Research-gray?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/RESEARCH)
+
+---
+
 ## 🛠️ Languages and Tools:
 Here are some of the technologies I use:
 
@@ -22,16 +36,6 @@ Here are some of the technologies I use:
 | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) | ![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=flat&logo=visual-studio&logoColor=white) | ![WPF](https://img.shields.io/badge/WPF-512BD4?style=flat&logo=.net&logoColor=white) |
 | ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white) | ![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white) | ![Power Electronics](https://img.shields.io/badge/Power%20Electronics-green?style=flat) |
 
----
-
-## 📂 My Repositories:
-
-Here are some of my GitHub repositories. Click on the buttons below to explore!
-
-[![C Programming Exercises](https://img.shields.io/badge/C%20Programming%20Exercises-blue?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C)
-[![C++ Projects](https://img.shields.io/badge/Embedded%20Systems-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C++)
-[![C# Projects](https://img.shields.io/badge/Embedded%20Systems-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C#)
-[![PYTHON Projects](https://img.shields.io/badge/Embedded%20Systems-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/Python)
 ---
 
 ## 📈 GitHub Stats:
