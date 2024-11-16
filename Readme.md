@@ -26,18 +26,26 @@ Here are some of my GitHub repositories. Click on the buttons below to explore!
 [![QT Projects](https://img.shields.io/badge/QT%20Projects-teal?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/QT)
 [![Research](https://img.shields.io/badge/Research-gray?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/RESEARCH)
 
+## 👀 Profile Views:
+![Profile Views](https://komarev.com/ghpvc/?username=aybukesokmen&color=blue&style=flat-square)
 
 ## 📈 GitHub Stats:
-![Aybuke's GitHub stats](https://github-readme-stats.vercel.app/api?username=aybukesokmen&show_icons=true&theme=radical)
 
-## 🖥️ Most Used Languages:
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aybukesokmen&layout=compact&theme=radical)
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=aybukesokmen&show_icons=true&theme=radical" alt="Aybuke's GitHub stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aybukesokmen&layout=compact&theme=radical" alt="Top Langs" />
+    </td>
+  </tr>
+</table>
+
 
 ## 📊 Commit Activity:
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=aybukesokmen&theme=radical)
 
-## 👀 Profile Views:
-![Profile Views](https://komarev.com/ghpvc/?username=aybukesokmen&color=blue&style=flat-square)
 
 ## 🏆 Contributions:
 ![GitHub Contributions](https://github-profile-trophy.vercel.app/?username=aybukesokmen&theme=radical)
