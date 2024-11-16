@@ -3,23 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aybuke's GitHub Profile</title>
+    <title>Dashboard</title>
     <style>
+        /* Genel Tasarım Ayarları */
         body {
-            background-color: #f5f5dc;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f3f3f3;
         }
-        h1, p {
-            color: #333;
-            text-align: center;
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 220px;
+            max-width: 300px;
+            background: #fff;
+            border-radius: 10px;
             padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .progress-circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 6px solid #eee;
+            margin: 10px auto;
+            position: relative;
+        }
+
+        .progress-circle .progress {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            clip-path: circle(50% at 50% 50%);
+            background: conic-gradient(#4CAF50 0% 85%, #ddd 85% 100%);
+        }
+
+        .progress-text {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .dark-mode {
+            background: #1e1e1e;
+            color: #fff;
+        }
+
+        .dark-mode .card {
+            background: #2a2a2a;
+            color: #ddd;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Sol Panel */
+        .left-panel {
+            flex: 1;
+            max-width: 300px;
+        }
+
+        /* Sağ Panel */
+        .right-panel {
+            flex: 2;
         }
     </style>
 </head>
 <body>
-    <h1>👋 Welcome to My GitHub Profile!</h1>
-    <p>Hi, I'm <strong>Aybuke</strong> from <strong>Turkey</strong>!</p>
+    <div class="container">
+        <!-- Sol Panel -->
+        <div class="left-panel">
+            <div class="card">
+                <h3>Engineering Graphics</h3>
+                <div class="progress-circle">
+                    <div class="progress"></div>
+                    <div class="progress-text">86%</div>
+                </div>
+                <p>12/14 Attendance</p>
+            </div>
+            <div class="card">
+                <h3>Mathematical Engineering</h3>
+                <div class="progress-circle">
+                    <div class="progress"></div>
+                    <div class="progress-text">93%</div>
+                </div>
+                <p>27/29 Attendance</p>
+            </div>
+        </div>
+
+        <!-- Sağ Panel -->
+        <div class="right-panel">
+            <div class="card">
+                <h3>Announcements</h3>
+                <p><strong>Academic:</strong> Summer training internship.</p>
+                <p><strong>Examination:</strong> Instructions for mid-term exams.</p>
+            </div>
+            <div class="card">
+                <h3>Teachers on Leave</h3>
+                <p><strong>The Professor:</strong> Full day.</p>
+                <p><strong>Lisa Monobal:</strong> Half day.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+
