@@ -10,8 +10,8 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f3f3f3;
-            color: #333;
+            background-color: #000; /* Arka plan siyah */
+            color: #fff; /* Yazılar beyaz */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -21,25 +21,22 @@
         .container {
             max-width: 1200px;
             width: 90%;
-            background: #fff;
-            padding: 20px;
+            background: #1a1a1a; /* Koyu arka plan */
+            padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px rgba(0, 255, 255, 0.3); /* Neon efekti */
         }
 
         h1 {
             text-align: center;
-            color: #4CAF50;
-        }
-
-        .profile-views, .connect, .about, .repos, .stats, .research {
-            margin: 20px 0;
+            color: #00ffcc; /* Neon mavi */
+            margin-bottom: 30px;
         }
 
         .section-title {
             font-size: 1.5rem;
-            color: #4CAF50;
-            margin-bottom: 10px;
+            color: #00ffcc; /* Neon mavi */
+            margin-bottom: 15px;
             text-transform: uppercase;
         }
 
@@ -47,32 +44,32 @@
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
 
         .repos-table th, .repos-table td {
             text-align: left;
             padding: 15px;
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid #333; /* Koyu gri çizgiler */
         }
 
         .repos-table th {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #00ffcc; /* Neon mavi */
+            color: #000; /* Siyah yazı */
             text-transform: uppercase;
         }
 
         .repos-table tr:hover {
-            background-color: #e8f5e9;
+            background-color: #222; /* Hover efekti */
         }
 
         .repos-table a {
-            color: #4CAF50;
+            color: #00ffcc;
             text-decoration: none;
             font-weight: bold;
         }
 
         .repos-table a:hover {
+            color: #ff00ff; /* Neon pembe hover */
             text-decoration: underline;
         }
 
@@ -84,33 +81,51 @@
 
         .stats-box {
             flex: 1;
-            background: #f9f9f9;
+            background: #1a1a1a;
             padding: 15px;
-            border: 1px solid #ddd;
+            border: 2px solid #00ffcc; /* Neon kenar çizgisi */
             border-radius: 10px;
             text-align: center;
         }
 
+        .stats-box h3 {
+            color: #ff00ff; /* Neon pembe */
+        }
+
+        .neon-button {
+            display: inline-block;
+            background: linear-gradient(90deg, #ff00ff, #00ffcc);
+            color: #000;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .neon-button:hover {
+            background: linear-gradient(90deg, #00ffcc, #ff00ff);
+            color: #fff;
+            box-shadow: 0 0 10px #00ffcc, 0 0 20px #ff00ff;
+        }
+
         footer {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 30px;
             font-size: 0.9rem;
-            color: #666;
+            color: #aaa;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to My GitHub Profile!</h1>
-        <div class="profile-views">
-            <strong>👀 Profile Views:</strong> <span>48</span>
-        </div>
-
+        
         <div class="connect">
             <h2 class="section-title">Connect with Me:</h2>
-            <p>Feel free to reach out and connect!</p>
-            <p>💼 <a href="https://www.linkedin.com/in/aybuke-sokmen/" target="_blank">LinkedIn</a></p>
-            <p>📧 Email: <a href="mailto:aybukesokmen@gmail.com">aybukesokmen@gmail.com</a></p>
+            <a href="https://www.linkedin.com/in/aybuke-sokmen/" target="_blank" class="neon-button">LinkedIn</a>
+            <a href="mailto:aybukesokmen@gmail.com" class="neon-button">Email Me</a>
         </div>
 
         <div class="about">
@@ -153,18 +168,6 @@
                         <td><a href="https://github.com/aybukesokmen/PSIM" target="_blank">PSIM Simulations</a></td>
                         <td>Power electronics simulations created in PSIM.</td>
                     </tr>
-                    <tr>
-                        <td><a href="https://github.com/aybukesokmen/QT" target="_blank">QT Projects</a></td>
-                        <td>GUI projects and applications developed with QT framework.</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/aybukesokmen/RESEARCH" target="_blank">Research</a></td>
-                        <td>Research-based projects and experimental code.</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/aybukesokmen/Python" target="_blank">Python Projects</a></td>
-                        <td>Python scripts and projects for data analysis and automation.</td>
-                    </tr>
                 </tbody>
             </table>
         </div>
@@ -181,11 +184,6 @@
                     <img src="https://github-readme-stats.vercel.app/api?username=aybukesokmen&show_icons=true&theme=radical" alt="GitHub Stats">
                 </div>
             </div>
-        </div>
-
-        <div class="research">
-            <h2 class="section-title">Research</h2>
-            <p>Research-based content will be here!</p>
         </div>
 
         <footer>
