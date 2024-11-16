@@ -1,15 +1,15 @@
 # 👋 Welcome to My GitHub Profile!
 
 Hi, I'm **Aybuke** from **Turkey**!  
-I work on **Embedded Systems** and have a strong interest in programming languages and frameworks like **C**, **C#**, and **C++**.  
+I work on **Embedded Systems** and pursue a **Master's degree in Power Electronics** at **Yıldız Technical University**.  
 
 ---
 
 ## 🚀 About Me:
-- 🔭 Currently focusing on embedded systems projects.
-- 📚 Passionate about learning new programming languages and tools.
-- 🌱 Exploring **IoT**, **RTOS**, and advanced **C/C++ frameworks**.
-- 🎯 Striving to contribute to open-source projects and collaborate with like-minded developers.
+- 🔭 Currently focusing on embedded systems and power electronics projects.
+- 📚 Passionate about learning new programming languages, tools, and frameworks.
+- 🌱 Exploring advanced **C/C++ frameworks** and **hardware-software integration**.
+- 🎯 Striving to develop innovative solutions in the embedded systems domain.
 
 ---
 
@@ -20,7 +20,7 @@ Here are some of the technologies I use:
 |---------------|---------------------|--------------------|
 | ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) | ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) | ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white) |
 | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) | ![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=flat&logo=visual-studio&logoColor=white) | ![WPF](https://img.shields.io/badge/WPF-512BD4?style=flat&logo=.net&logoColor=white) |
-| ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white) | ![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white) | ![RTOS](https://img.shields.io/badge/RTOS-blue?style=flat) |
+| ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white) | ![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white) | ![Power Electronics](https://img.shields.io/badge/Power%20Electronics-green?style=flat) |
 
 ---
 
@@ -29,9 +29,8 @@ Here are some of the technologies I use:
 Here are some of my GitHub repositories. Click on the buttons below to explore!
 
 [![C Programming Exercises](https://img.shields.io/badge/C%20Programming%20Exercises-blue?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C)
-[![C++ Projects](https://img.shields.io/badge/Embedded%20Systems-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C-)
-[![C# Projects](https://img.shields.io/badge/IoT%20Projects-green?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/CSharp)
-[![Python Projects](https://img.shields.io/badge/IoT%20Projects-green?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/Python)
+[![Embedded Systems Projects](https://img.shields.io/badge/Embedded%20Systems-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/embedded-systems)
+
 ---
 
 ## 📈 GitHub Stats:
@@ -41,8 +40,8 @@ Here are some of my GitHub repositories. Click on the buttons below to explore!
 
 ## 🌟 Projects and Interests:
 - 🌍 **Embedded Systems**: Developing hardware-software solutions for real-time applications.
+- 🔋 **Power Electronics**: Exploring cutting-edge designs for energy-efficient systems.
 - 🛠 **Software Development**: Passionate about clean, efficient, and modular code.
-- 🔌 **IoT**: Building innovative projects in the Internet of Things space.
 
 ---
 
