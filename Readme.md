@@ -19,10 +19,30 @@ Here are some of my GitHub repositories. Click on the buttons below to explore!
 
 ## 📂 My Repositories:
 
-| [![C Programming Exercises](https://img.shields.io/badge/C%20Programming%20Exercises-blue?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C) | [![STM32 Projects](https://img.shields.io/badge/STM32%20Projects-green?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/STM32) | [![C++ Projects](https://img.shields.io/badge/C%2B%2B%20Projects-purple?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C-) | [![Python](https://img.shields.io/badge/Python-gray?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/Python) |
-|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| [![WPF Projects](https://img.shields.io/badge/WPF%20Projects-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/WPF) | [![PSIM Simulations](https://img.shields.io/badge/PSIM%20Simulations-red?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/PSIM) | [![QT Projects](https://img.shields.io/badge/QT%20Projects-teal?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/QT) | [![Research](https://img.shields.io/badge/Research-gray?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/RESEARCH) |
-
+<table style="background-color: black; width: 100%; text-align: center;">
+  <tr>
+    <td>
+      <a href="https://github.com/aybukesokmen/WPF">
+        <img src="https://img.shields.io/badge/WPF%20Projects-orange?style=for-the-badge&logo=github" alt="WPF Projects">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/aybukesokmen/PSIM">
+        <img src="https://img.shields.io/badge/PSIM%20Simulations-red?style=for-the-badge&logo=github" alt="PSIM Simulations">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/aybukesokmen/QT">
+        <img src="https://img.shields.io/badge/QT%20Projects-teal?style=for-the-badge&logo=github" alt="QT Projects">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/aybukesokmen/RESEARCH">
+        <img src="https://img.shields.io/badge/Research-gray?style=for-the-badge&logo=github" alt="Research">
+      </a>
+    </td>
+  </tr>
+</table>
 
 
 
