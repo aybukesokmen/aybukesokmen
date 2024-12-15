@@ -23,6 +23,7 @@ Here are some of my GitHub repositories. Click on the buttons below to explore!
 | [![C++ Projects](https://img.shields.io/badge/C%2B%2B%20Projects-purple?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C-) | Various C++ projects and exercises. |
 | [![WPF Projects](https://img.shields.io/badge/WPF%20Projects-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/WPF) | Projects developed using Windows Presentation Foundation (WPF). |
 | [![PSIM Simulations](https://img.shields.io/badge/PSIM%20Simulations-red?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/PSIM) | Power electronics simulations created in PSIM. |
+| [![LTSPICE Simulations](https://img.shields.io/badge/LTSPICE%20Simulations-red?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/LTSPICE) | Electronics simulations created in LTSPICE. |
 | [![QT Projects](https://img.shields.io/badge/QT%20Projects-teal?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/QT) | GUI projects and applications developed with QT framework. |
 | [![Research](https://img.shields.io/badge/Research-gray?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/RESEARCH) | Research-based projects and experimental code. |
 | [![Python Projects](https://img.shields.io/badge/Python-gray?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/Python) | Python scripts and projects for data analysis and automation. |
