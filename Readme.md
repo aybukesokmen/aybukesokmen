@@ -20,6 +20,7 @@ Here are some of my GitHub repositories. Click on the buttons below to explore!
 |------------|-------------|
 | [![C Projects](https://img.shields.io/badge/C%20Projects-blue?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C) | Exercises and projects in C programming. |
 | [![STM32 Projects](https://img.shields.io/badge/STM32%20Projects-green?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/STM32) | Embedded systems projects with STM32 microcontrollers. |
+| [![ESP8266 Projects](https://img.shields.io/badge/STM32%20Projects-green?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/ESP8266) | Embedded systems projects with ESP8266. |
 | [![C++ Projects](https://img.shields.io/badge/C%2B%2B%20Projects-purple?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/C-) | Various C++ projects and exercises. |
 | [![WPF Projects](https://img.shields.io/badge/WPF%20Projects-orange?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/WPF) | Projects developed using Windows Presentation Foundation (WPF). |
 | [![PSIM Simulations](https://img.shields.io/badge/PSIM%20Simulations-red?style=for-the-badge&logo=github)](https://github.com/aybukesokmen/PSIM) | Power electronics simulations created in PSIM. |
